@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_1280x720"
+    tools:context="com.example.josmell.goodhope03.LoginActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login_logo"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textColor="@color/colorButtomLoginText"
+        android:textColorHint="@color/colorButtomLoginText"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="3dp"
+        android:textColorLink="@color/colorButtomLoginText"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/login_user_icon"
+        android:drawableTint="@color/colorButtomLoginText"
+        android:background="@drawable/border_edit_text_login"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textColor="@color/colorButtomLoginText"
+        android:textColorHint="@color/colorButtomLoginText"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingBottom="10dp"
+        android:singleLine="true"
+        android:paddingLeft="3dp"
+        android:textColorLink="@color/colorButtomLoginText"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/login_pwd_icon"
+        android:drawableTint="@color/colorButtomLoginText"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/border_edit_text_login"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorButtomLogin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar con Facebook"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:background="#39579B"
+        android:drawableLeft="@drawable/login_bt_facebook"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar con Google"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="#DF4A32"
+        android:drawableLeft="@drawable/login_bt_google"/>
+</LinearLayout>

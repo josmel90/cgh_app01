@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorButtomLogin">#0090a2</color>
+    <color name="colorButtomLoginText">#B3B3B3</color>
+    <color name="colorMenuInfePost">#036A94</color>
+    <color name="colorMenuSupePost">#014662</color>
+</resources>
